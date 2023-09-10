@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Riannarayana</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            body {
+                padding: 25px;
+                background-color: white;
+                color: black;
+                font-size: 25px;
+            }
+     
+            .dark-mode {
+                background-color: black;
+                color: white;
+            }
+     
+            .light-mode {
+                background-color: white;
+                color: black;
+            }
+        </style>
+    <head>
+        <body>
+            <a href="Profil">Profil</a>
+            <a href="Motorbike">Motorbike</a><br>
+            <p align="center"><b>Foto motor</b></p><br>
+            <img src="dokka1.jpg"border="3"height="400"width="300">
+            <button onclick="darkMode()">Darkmode</button>
+            <button onclick="lightMode()">LightMode</button>
+            <script>
+                function darkMode() {
+                    let element = document.body;
+                    let content = document.getElementById("DarkModetext");
+                    element.className = "dark-mode";
+                    content.innerText = "Dark Mode is ON";
+                }
+                function lightMode() {
+                    let element = document.body;
+                    let content = document.getElementById("DarkModetext");
+                    element.className = "light-mode";
+                    content.innerText = "Dark Mode is OFF";
+                }
+            </script>
+        
+        </body>
+    </html>
