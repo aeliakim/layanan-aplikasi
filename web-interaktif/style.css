@@ -1,0 +1,38 @@
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #ecf011;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    padding: 20px;
+  }
+.pertanyaan {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+   
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.submit {
+    text-align: left;
+    margin-top: 20px;
+}
+   
+  footer {
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #ecf011;
+    font-weight: bold;
+    text-align: center;
+  }
